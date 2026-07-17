@@ -10,13 +10,38 @@ body {
     background-color: #f7f9fa;
     color: #333;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-/* Hero Section with Background Image */
+/* Navigation Bar */
+nav {
+    background-color: #232d4b; /* Virginia Blue */
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+nav a:hover, nav a.active {
+    background-color: #ef6017; /* Virginia Orange */
+}
+
+/* Hero Section with Background Image (Home Page Only) */
 .hero {
-    /* Replace 'rotunda.jpg' with the actual filename of your picture */
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('rotunda-interior-design-renovation-glave-and-holmes-northfacadedusk.webp') no-repeat center center/cover;
-    height: 80vh;
+    /* Change the filename below if your image name is different */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('rotunda-interior-design-renovation-glave-an...') no-repeat center center/cover;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +63,7 @@ body {
 }
 
 .cta-button {
-    background-color: #ef6017; /* Virginia Orange tint */
+    background-color: #ef6017;
     color: white;
     padding: 12px 30px;
     text-decoration: none;
@@ -48,32 +73,14 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #232d4b; /* Virginia Blue tint */
-}
-
-/* Navigation Bar */
-nav {
-    background-color: #232d4b;
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    z-index: 100;
-}
-
-nav a {
-    color: white;
-    padding: 15px 20px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: background 0.2s;
-}
-
-nav a:hover {
-    background-color: #ef6017;
+    background-color: #1a2238;
 }
 
 /* Main Sections */
+main {
+    flex: 1;
+}
+
 .section {
     padding: 60px 20px;
     max-width: 1100px;
@@ -85,13 +92,6 @@ h2 {
     font-size: 2.2rem;
     color: #232d4b;
     margin-bottom: 40px;
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    background: #ddd;
-    margin: 20px 0;
 }
 
 /* About Us - Officer Cards Grid */
@@ -165,5 +165,4 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
 }
