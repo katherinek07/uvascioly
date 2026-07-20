@@ -68,7 +68,7 @@ nav .nav-tabs a:hover, nav .nav-tabs a.active {
 
 /* Hero Section with Background Image (Home Page Only) */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('rotunda-interior-design-renovation-glave-an...') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('rotunda.jpg') no-repeat center center/cover;
     flex: 1;
     display: flex;
     justify-content: center;
