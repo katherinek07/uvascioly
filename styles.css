@@ -257,3 +257,13 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* Styling for uploaded officer images */
+.officer-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /* Prevents the image from stretching or distorting */
+    margin: 0 auto 15px auto;
+    display: block;
+}
