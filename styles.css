@@ -6,8 +6,12 @@
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
 
+/* Update your body style in styles.css */
 body {
-    background-color: #f4f6f9;
+    background-color: #f8fafc;
+    /* Example using SVG dots/grid background */
+    background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+    background-size: 24px 24px;
     color: #2d3748;
     line-height: 1.6;
     display: flex;
