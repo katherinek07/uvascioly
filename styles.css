@@ -268,3 +268,11 @@ footer {
     padding: 25px;
     font-size: 0.9rem;
 }
+.officer-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px auto;
+    display: block;
+}
