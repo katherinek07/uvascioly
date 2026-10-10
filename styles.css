@@ -315,3 +315,15 @@ footer {
 .social-link:hover {
     color: #ffffff;
 }
+
+/* Indent Bullet Lists inside Event Cards */
+.event-block ul {
+    padding-left: 28px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.event-block li {
+    margin-bottom: 6px;
+    color: var(--text-main);
+}
