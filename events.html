@@ -23,26 +23,40 @@
     <main>
         <section id="events" class="section">
             <h2>Tournament Information</h2>
-            <div class="events-container">
+            
+            <div class="events-grid">
                 
-                <!-- UVA Invitational Section -->
-                <div class="event-block">
-                    <h3>UVA Invitational</h3>
-                    <p><strong>Date:</strong> November 6, 2026</p>
-                    <p><strong>Registration Fees:</strong></p>
-                    <ul>
-                        <li>$100 for the first team</li>
-                        <li>$25 for one additional team from the same school</li>
-                    </ul>
-                    <br>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdslVRjUYUEUvNTNVORiq2eL3m4UazaZi94NVOx5R-iYCoxPw/viewform?usp=header" target="_blank" class="cta-button">Register for Invitational</a>
+                <!-- UVA Invitational Card -->
+                <div class="event-card">
+                    <div class="event-image-container">
+                        <img src="invitational-photo.jpg" alt="UVA Invitational" class="event-image" onerror="this.src='rotunda.jpg'">
+                        <span class="badge open">Registration Open</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>UVA Invitational</h3>
+                        <p class="event-date"><strong>Date:</strong> November 6, 2026</p>
+                        <p><strong>Registration Fees:</strong></p>
+                        <ul>
+                            <li>$100 for the first team</li>
+                            <li>$25 for one additional team from the same school</li>
+                        </ul>
+                        <p class="event-desc">Join us on Grounds for an exciting day of competition across all 23 Division C events!</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdslVRjUYUEUvNTNVORiq2eL3m4UazaZi94NVOx5R-iYCoxPw/viewform?usp=header" target="_blank" class="cta-button">Register for Invitational</a>
+                    </div>
                 </div>
 
-                <!-- Virginia States Section -->
-                <div class="event-block">
-                    <h3>Virginia States</h3>
-                    <p><strong>Date:</strong> April 10, 2027</p>
-                    <p><strong>Location:</strong> Virginia Tech</p>
+                <!-- Virginia States Card -->
+                <div class="event-card">
+                    <div class="event-image-container">
+                        <img src="states-photo.jpg" alt="Virginia Tech" class="event-image" onerror="this.src='rotunda.jpg'">
+                        <span class="badge upcoming">Upcoming State Final</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Virginia States</h3>
+                        <p class="event-date"><strong>Date:</strong> April 10, 2027</p>
+                        <p><strong>Location:</strong> Virginia Tech (Blacksburg, VA)</p>
+                        <p class="event-desc">Our team prepares rigorously throughout the season to compete against the best teams in Virginia and earn a spot at National Tournament!</p>
+                    </div>
                 </div>
 
             </div>
