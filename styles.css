@@ -231,6 +231,18 @@ h2::after {
     margin-bottom: 10px;
 }
 
+/* Indent Bullet Lists inside Event Cards */
+.event-block ul {
+    padding-left: 40px !important;
+    margin-top: 10px !important;
+    margin-bottom: 18px !important;
+}
+
+.event-block li {
+    margin-bottom: 6px;
+    color: #334155;
+}
+
 /* Contact Page Card */
 .contact-section {
     display: flex;
@@ -314,16 +326,4 @@ footer {
 
 .social-link:hover {
     color: #ffffff;
-}
-
-/* Indent Bullet Lists inside Event Cards */
-.event-block ul {
-    padding-left: 28px;
-    margin-top: 8px;
-    margin-bottom: 16px;
-}
-
-.event-block li {
-    margin-bottom: 6px;
-    color: var(--text-main);
 }
