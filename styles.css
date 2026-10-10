@@ -232,13 +232,13 @@ h2::after {
 }
 
 /* Indent Bullet Lists inside Event Cards */
-.event-block ul {
+.event-block ul, .event-details ul {
     padding-left: 40px !important;
     margin-top: 10px !important;
     margin-bottom: 18px !important;
 }
 
-.event-block li {
+.event-block li, .event-details li {
     margin-bottom: 6px;
     color: #334155;
 }
@@ -404,16 +404,6 @@ footer {
     margin-bottom: 24px;
     color: #475569;
     font-size: 0.95rem;
-}
-
-.event-details ul {
-    padding-left: 24px;
-    margin: 8px 0 16px 0;
-}
-
-.event-details li {
-    margin-bottom: 4px;
-    color: #334155;
 }
 
 .event-details .cta-button {
