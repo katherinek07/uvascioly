@@ -346,3 +346,8 @@ footer {
     font-size: 0.92rem;
     margin-top: auto;
 }
+
+.badge.closed {
+    background-color: #64748b;
+    color: #ffffff;
+}
